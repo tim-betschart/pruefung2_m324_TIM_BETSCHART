@@ -1,7 +1,6 @@
-# ict-m324 -Prüfungsaufgabe: GitHub Actions und CI/CD  
+# ict-m324 -Prüfungsaufgabe: GitHub Actions und CI/CD
 
 ---
-
 
 - Achten Sie auf die geforderten Commit Messages. Bei jeder Aufgabe muss ein Commit mit einer bestimmten Nachricht erstellt werden.
 - Lösen Sie die die Aufgaben 1 bis 3. Bei den Aufgaben 4 und 5 können Sie die Reihenfolge selber wählen.
@@ -17,7 +16,7 @@
 2. **Code übernehmen**
 
    - Öffnen Sie ihr Repository lokal.
-   - Kopieren Sie alle Dateien aus von diesem Repository in ihr lokales Repository. Erstellen Sie keinen Fork. 
+   - Kopieren Sie alle Dateien aus von diesem Repository in ihr lokales Repository. Erstellen Sie keinen Fork.
    - Erstellen Sie einen Commit mit der Nachricht `"Init"` und pushen Sie den Code auf GitHub. Ihr `main` Branch sollte denselben Code wie dieses Repository enthalten.
    - **Commit Messages**:
      - `"Init"`
