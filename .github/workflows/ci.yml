@@ -35,4 +35,11 @@ jobs:
         with:
           name: Mocha Tests
           path: test-results.json
-          reporter: mocha-junit
+      - name: AI Code Reviewer
+        uses: your-username/ai-code-reviewer@main
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_API_MODEL: 'gpt-3.5-turbo'
+          with-comment: true
+          exclude: '**/*.json, **/*.md'
