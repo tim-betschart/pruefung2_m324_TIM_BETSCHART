@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "format": "prettier --write .",
     "format-check": "prettier --check .",
-    "test": "node_modules/.bin/mocha ./"
+    "test": "node_modules/.bin/mocha ./ --reporter json --reporter-option output=test-results.json"
   },
   "repository": {
     "type": "git",
