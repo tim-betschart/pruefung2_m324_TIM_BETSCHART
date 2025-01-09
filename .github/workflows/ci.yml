@@ -36,7 +36,7 @@ jobs:
           name: Mocha Tests
           path: test-results.json
       - name: AI Code Reviewer
-        uses: timbetschart/pruefung2_m324_TIM_BETSCHART@main
+        uses: aidar-freeed/ai-codereviewer@v2.7.0
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
