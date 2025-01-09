@@ -36,7 +36,7 @@ jobs:
           name: Mocha Tests
           path: test-results.json
       - name: AI Code Reviewer
-        uses: your-username/ai-code-reviewer@main
+        uses: timbetschart/pruefung2_m324_TIM_BETSCHART@main
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
