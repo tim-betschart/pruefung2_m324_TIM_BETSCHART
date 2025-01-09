@@ -4,7 +4,7 @@ export const sum = (a, b) => {
   return a + b;
 };
 
-  const word = generate();
+const word = generate();
 // const word2 = generate();
 console.log(
   `Hello!!! 
