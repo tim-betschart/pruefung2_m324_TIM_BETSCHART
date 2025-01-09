@@ -35,4 +35,4 @@ jobs:
         with:
           name: Mocha Tests
           path: test-results.json
-          reporter: jest-junit
+          reporter: mocha-junit
